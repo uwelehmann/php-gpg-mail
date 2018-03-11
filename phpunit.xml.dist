@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         verbose="true">
+    <testsuites>
+        <testsuite name="php-gpg-mail">
+            <file>./tests/GpgMailTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

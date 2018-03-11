@@ -1,0 +1,4 @@
+/tests/gnupg/*
+/tests/raw/*
+!/tests/gnupg/.gitkeep
+!/tests/raw/.gitkeep

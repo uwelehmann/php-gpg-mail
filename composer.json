@@ -1,0 +1,36 @@
+{
+    "name": "uwelehmann/php-gpg-mail",
+    "description": "",
+    "homepage": "",
+    "license": "",
+    "authors": [
+        {
+            "name": "Uwe Lehmann",
+            "email": "lehmann.uwe@gmx.de"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "uwelehmann/php-process": "",
+        "uwelehmann/php-gpg": "",
+        "zendframework/zend-mail": "^2.7 || ^3.0",
+        "zendframework/zend-mime": "^2.7 || ^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "UweLehmann\\GpgMail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UweLehmann\\GpgMailTest\\": "tests/"
+        }
+    },
+    "extra": {
+    }
+}
